@@ -1,0 +1,28 @@
+{
+    "name": "developerhub/color-order-customer-grid",
+    "description": "Makes the Sales Orders grid and Customer grid colorful.",
+    "require": {
+        "php": ">=7.1.0",
+        "developerhub/core": "1.0.*"
+    },
+    "type":"magento2-module",
+    "version": "1.0.0",
+    "license":[
+        "proprietary"
+    ],
+    "authors":[
+        {
+            "name" : "Support",
+            "homepage" : "https://www.thedeveloperhub.com",
+            "role" : "Developer"
+        }
+    ],
+    "autoload":{
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "DeveloperHub\\ColorOrderCustomerGrid\\" : ""
+        }
+    }
+}

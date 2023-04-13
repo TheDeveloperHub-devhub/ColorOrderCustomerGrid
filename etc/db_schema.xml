@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="sales_order_status">
+        <column xsi:type="text" name="color" nullable="true" comment="Color"/>
+    </table>
+    <table name="customer_group">
+        <column xsi:type="text" name="color" nullable="true" comment="Color"/>
+    </table>
+</schema>
