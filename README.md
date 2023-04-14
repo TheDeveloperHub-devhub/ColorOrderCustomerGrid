@@ -12,8 +12,7 @@
 
 1. Please run the following command
 ```shell
-composer require developerhub/core
-composer require developerhub/color-order-customer-grid
+composer require devhub/color-order-customer-grid
 ```
 
 2. Update the composer if required
